@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📄 Excelled-web
 
-## Getting Started
+A web app that unlocks/bypasses password-protected excel file. Its process runs totally on the client-side without saving your file on the server.
 
-First, run the development server:
+## Usage/Examples
+
+1. Open http://excelled.alecblance.com
+2. Upload your password-protected excel file
+3. Open the downloaded file. VIOLA! ✨
+
+## Screenshots
+
+![App Screenshot](docs/screenshot.png)
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/AlecBlance/excelled-web
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd excelled-web
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## FAQ
 
-## Deploy on Vercel
+#### Does it store my excel file in the server?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+No. The whole process is on the client-side. 💪
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### How does it work?
+
+I'm glad you asked! 😆 It is quite simple actually. I extract the excel file, and remove each sheetProtection and workbookProtection elements inside, then zip and return an xlsx.
+
+#### Do I need to pay anything?
+
+Everything is totally FREE! 🎉 Don't accept any payment from someone if asked.
+
+#### Do you have an api?
+
+I'm creating the api documentation now. Will release it when it's done. Feel free to explore the Network tab in DevTools at the moment. It uses the same route 😉
+
+#### What drived you to make this app?
+
+My mother always works with the excel files. When it is protected, she can't edit it. Worst, when she don't have the password. So, instead of manually going through the files and editing it, I created Excelled. This way she can just upload and get the file on-the-go.
+
+## Tech Stack
+
+**Client:** React, NextJS, TailwindCSS
+
+**Library:** JSZip
+
+## Authors
+
+- [@AlecBlance](https://www.github.com/AlecBlance)
+
+## Roadmap
+
+- Multiple file uploads
+
+- API Documentation
