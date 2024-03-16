@@ -24,6 +24,7 @@ const InputFile = () => {
       link.setAttribute("download", `${fileName[0]}-excelled.${fileName[1]}`);
       document.body.appendChild(link);
       link.click();
+      e.target.value = "";
     } catch (e: any) {
       console.error(e);
     }
