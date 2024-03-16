@@ -56,6 +56,10 @@ Everything is totally FREE! 🎉 Don't accept any payment from someone if asked.
 
 I'm creating the api documentation now. Will release it when it's done. Feel free to explore the Network tab in DevTools at the moment. It uses the same route 😉
 
+#### Do you support multiple file unlocks?
+
+Currently the web app doesn't support this but the previous app version supports it. You can find it [here](https://github.com/AlecBlance/excelled)
+
 #### What drived you to make this app?
 
 My mother always works with the excel files. When it is protected, she can't edit it. Worst, when she don't have the password. So, instead of manually going through the files and editing it, I created Excelled. This way she can just upload and get the file on-the-go.
