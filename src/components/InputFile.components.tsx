@@ -1,6 +1,7 @@
 "use client";
 
 import { ChangeEvent } from "react";
+import { Toaster, toast } from "sonner";
 
 const InputFile = () => {
   const handleFile = async (e: ChangeEvent<HTMLInputElement>) => {
@@ -8,6 +9,7 @@ const InputFile = () => {
     if (!file) return;
 
     try {
+      toast.info("Unlocking your excel file...");
       const fileName = file.name.split(".");
       const data = new FormData();
       data.set("file", file);
@@ -25,8 +27,10 @@ const InputFile = () => {
       document.body.appendChild(link);
       link.click();
       e.target.value = "";
+      toast.success("Downloaded!");
     } catch (e: any) {
       console.error(e);
+      toast.error("There seems to be a problem...");
     }
   };
 
