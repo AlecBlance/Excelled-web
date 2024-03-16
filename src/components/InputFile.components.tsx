@@ -29,7 +29,23 @@ const InputFile = () => {
     }
   };
 
-  return <input type="file" name="file" onChange={handleFile} />;
+  return (
+    <>
+      <label
+        htmlFor="file"
+        className="bg-excelled-text rounded-full text-sm w-full py-3 flex justify-center text-white"
+      >
+        UPLOAD
+      </label>
+      <input
+        type="file"
+        name="file"
+        id="file"
+        className="hidden"
+        onChange={handleFile}
+      />
+    </>
+  );
 };
 
 export default InputFile;
