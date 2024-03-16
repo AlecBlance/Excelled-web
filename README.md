@@ -70,6 +70,10 @@ My mother always works with the excel files. When it is protected, she can't edi
 
 - [@AlecBlance](https://www.github.com/AlecBlance)
 
+## License
+
+[MIT](LICENSE)
+
 ## Roadmap
 
 - Multiple file uploads
