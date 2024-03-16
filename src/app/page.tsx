@@ -12,7 +12,7 @@ const Home = () => {
           className: "class",
         }}
       />
-      <div className="flex flex-col justify-center items-center h-screen p-5">
+      <div className="flex flex-col justify-center items-center h-screen-dvh p-5">
         <div className="font-extrabold text-4xl mb-10 md:text-5xl">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-excelled-gradient-from to-excelled-gradient-to">
             EXCELLED

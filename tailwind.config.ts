@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      height: {
+        "screen-dvh": "100dvh",
+      },
       colors: {
         "excelled-bg": "#1A1A1A",
         "excelled-text": "#33C481",
