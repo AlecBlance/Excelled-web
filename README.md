@@ -8,6 +8,12 @@ A web app that unlocks/bypasses password-protected excel file. Its process runs 
 2. Upload your password-protected excel file
 3. Open the downloaded file. VIOLA! ✨
 
+## Test
+
+1. Open http://excelled.alecblance.com
+2. Download [cant edit.xlsx](sample/cant%20edit.xlsx) from the `sample/` folder and upload to the excelled website
+3. Now open the new downloaded file "`cant edit-excelled.xlsx`"
+
 ## Screenshots
 
 ![App Screenshot](docs/screenshot.png)
