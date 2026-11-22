@@ -6,7 +6,7 @@ const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Excelled",
-  description: "A web app that unlocks/bypasses password-protected excel file",
+  description: "Remove worksheet and workbook editing locks from supported Excel files, privately in your browser. Your original file stays unchanged.",
 };
 
 export default function RootLayout({
